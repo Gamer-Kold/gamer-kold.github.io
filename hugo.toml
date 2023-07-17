@@ -1,4 +1,4 @@
-baseURL = 'http://kodin.cc/'
+baseURL = 'https://kodin.cc/'
 languageCode = 'en-us'
 title = 'Kodrants'
 author = 'Talha Qamar'
