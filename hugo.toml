@@ -1,0 +1,34 @@
+baseURL = 'http://kodin.cc/'
+languageCode = 'en-us'
+title = 'Kodrants'
+author = 'Talha Qamar'
+theme = "risotto"
+
+
+[params.theme]
+palette = "solarized-dark"
+
+[params.about]
+title = "Talha Qamar"
+description = "A 17 year old game developer with a lot of opinions and not enough time to care about them"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:qamartalha@proton.me"
+
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/Gamer-Kold"
+
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "now"
+    name = "Now"
+    url = "/now/"
+    weight = 10
