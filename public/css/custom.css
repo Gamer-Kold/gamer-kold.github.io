@@ -1,1 +1,7 @@
 /* Override this file to customise the theme's CSS for your site */
+:root{
+    --link: var(--base0A);
+    --hover: var(--base09);
+    --highlight: var(--base09);
+    --logo: var(--base08);
+}
