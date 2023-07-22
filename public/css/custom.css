@@ -1,7 +1,11 @@
 /* Override this file to customise the theme's CSS for your site */
-:root{
+:root {
+    --logo: var(--base08);
+    --hightlight: var(--base0A);
     --link: var(--base0A);
     --hover: var(--base09);
-    --highlight: var(--base09);
-    --logo: var(--base08);
+}
+
+.copyright{
+  text-align: center;
 }
