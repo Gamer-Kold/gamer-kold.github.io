@@ -1,6 +1,6 @@
 baseURL = 'https://kodin.cc/'
 languageCode = 'en-us'
-title = 'Kodrants'
+title = 'Kodin'
 author = 'Talha Qamar'
 theme = "risotto"
 
@@ -31,4 +31,9 @@ url = "https://github.com/Gamer-Kold"
     identifier = "now"
     name = "Now"
     url = "/now/"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
     weight = 10
