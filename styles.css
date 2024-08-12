@@ -79,7 +79,7 @@ header {
 	}
 }
 
-@media (max-width : 800px){
+@media (max-width : 800px), (orientation:portrait) {
 	.main {
 		flex-direction: column;
 		width:95%;
