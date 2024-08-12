@@ -68,7 +68,7 @@ header {
 }
 
 
-@media (max-width : 1080px){
+@media (max-width : 900px){
 	.main {
 		flex-direction: column;
 		width:95%;
