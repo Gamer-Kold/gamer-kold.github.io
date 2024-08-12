@@ -27,11 +27,12 @@ h1 {
 	}
 }
 
-
 .header-links{
 	width : 75%;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 10px 5px;
 	margin: 0 auto;
 }
 
@@ -42,6 +43,11 @@ h1 {
 	padding: 20px;
 	display: flex;
 	justify-content: space-around;
-	flex-direction:row;
 	align-items: center;
+}
+
+@media (max-width : 800px){
+	.main {
+		flex-direction: column;
+	}
 }
