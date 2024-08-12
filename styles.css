@@ -67,8 +67,19 @@ header {
 	display:inline-block;
 }
 
+@media (min-width : 900px){
+	.main {
+		width: 675px;
+	}
+	.header-links{
+		width: 675px;
+	}
+	#aboutme-main {
+		width: 800px;
+	}
+}
 
-@media (max-width : 900px){
+@media (max-width : 800px){
 	.main {
 		flex-direction: column;
 		width:95%;
@@ -89,17 +100,6 @@ header {
 
 	.ascii-banner {
 		order: -1;
-	}
-}
-@media (min-width : 900px){
-	.main {
-		width: 675px;
-	}
-	.header-links{
-		width: 675px;
-	}
-	#aboutme-main {
-		width: 800px;
 	}
 }
 
