@@ -62,9 +62,10 @@ header {
 }
 
 .ascii {
-	font-family: "Oxygen Mono", monospace;
+	font-family: "JetBrains Mono", monospace;
 	text-align:left;
 	display:inline-block;
+	font-variant-ligatures: none;
 }
 
 @media (min-width : 900px){
