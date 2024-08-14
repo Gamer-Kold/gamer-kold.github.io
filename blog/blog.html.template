@@ -14,7 +14,6 @@
 			<hr/>
 			<div class="header-links">
 				<a class="header-link" href="..">Home</a>
-				<a class="header-link"href="../links.html">Links</a>
 				<a class="header-link" href="../aboutme.html">About</a>
 				<a class="header-link" href="../projects.html">Projects</a>
 				<a class="header-link active-header-link" href="../blog/index.html">Blog</a>
@@ -26,9 +25,8 @@
 			<br/>
 		</header>
 		<main class="main">
-			<p>
-				This page is under construction
-			</p>
+			<h2>Blog Title</h2>
+			<p>Lorem Ipsum dolor set amet</p>
 		</main>
 	</body>
 </html>
