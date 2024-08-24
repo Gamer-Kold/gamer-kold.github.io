@@ -4,8 +4,8 @@ date = 2024-08-24T21:17:18+05:00
 draft = false
 +++
 HEY MA LOOK AT ME
-<pre class="ascii ascii-banner">
 
+{{% ascii "ascii-banner" %}}
           ,^,
          /```\ | |
        ,'`````', |
@@ -42,4 +42,4 @@ HEY MA LOOK AT ME
       |      |  || \    /^\ \__
       |      |  || |   /   \__ )
       |,_____|_,|'\/---_/^\ __)
-</pre>
+{{% /ascii %}}
