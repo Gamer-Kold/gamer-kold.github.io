@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{block "title" .}}Kodin{{{end}}}</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+	<body>
+		<header>
+			Kodin
+			<hr/>
+			<nav class="header-links">
+				<a class="header-link active-header-link" href=".">Home</a>
+				<a class="header-link" href="links.html">Links</a>
+				<a class="header-link" href="aboutme.html">About</a>
+				<a class="header-link" href="projects.html">Projects</a>
+				<a class="header-link" href="blog/index.html">Blog</a>
+			</nav>
+			<hr/>
+			This site is under construction
+			<hr/>
+			<br/>
+			<br/>
+		</header>
+		<main class="main">
+			<div>
+				{{block "main" .}}
+				{{end}}
+			</div>
+			<pre class="ascii ascii-banner">
+
+          ,^,
+         /```\ | |
+       ,'`````', |
+     ,'`````````',             
+   ,'`````````````',           
+ ,'`````````````````',         
+(=====================)        
+    |  /\         |
+    | |  |        |
+    |  \/         |                /| 
+    ', ==        ,'                o
+      ',_______,'                 /||
+      |  |      |               --//<<
+      |  |      |\                \\
+      |',|____,'|`',
+      |      |  |```\
+      |      |  |````',
+      |',____|,'|``````\
+      |  |      |===_===)
+      |  |      |  / \|
+      |',|____,'| |___|
+      |      |  |-----+
+      |      |  |//
+      |',____|,'|/
+      |  |      |
+      |  |      |                Z
+      |',|____,'|            Z
+      |      |  |        Z
+      |      |  | /=== 
+      |',____|,'|( v v)
+      |  |      | \__/
+      |  |      | /    \
+      |',|____,'||      |/^\
+      |      |  || \    /^\ \__
+      |      |  || |   /   \__ )
+      |,_____|_,|'\/---_/^\ __)
+	      		</pre>
+		</main>
+	</body>
+</html>
