@@ -15,11 +15,10 @@
 			Kodin
 			<hr/>
 			<nav class="header-links">
-				<a class="header-link active-header-link" href=".">Home</a>
-				<a class="header-link" href="links.html">Links</a>
-				<a class="header-link" href="aboutme.html">About</a>
-				<a class="header-link" href="projects.html">Projects</a>
-				<a class="header-link" href="blog/index.html">Blog</a>
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.main }}
+				<a class="header-link {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (eq ($currentPage.Permalink) (.URL | absLangURL)) }} active-header-link {{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+				{{ end }}
 			</nav>
 			<hr/>
 			This site is under construction

@@ -3,3 +3,26 @@ languageCode = 'en-us'
 title = "Kodin's Tower"
 [params]
 custom_css = ["css/styles.css"]
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Links'
+    pageRef = '/links'
+    weight = 20
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/aboutme'
+    weight = 30
+  [[menus.main]]
+    name = 'Projects'
+    pageRef = '/projects'
+    weight = 40
+  [[menus.main]]
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 50
+
