@@ -27,7 +27,7 @@
 			<br/>
 			<br/>
 		</header>
-		<main class="main">
+		<main class="main" id="{{if .Param "main_id"}}{{.Param  "main_id"}}{{end}}">
 			{{block "main" .}}
 			{{end}}
 		</main>
