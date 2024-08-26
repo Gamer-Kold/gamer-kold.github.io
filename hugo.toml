@@ -12,7 +12,7 @@ title = "Kodin's Tower"
 custom_css = ["css/styles.css"]
 
 [taxonomies]
-  tag = 'blog/tags'
+  blog_tags = 'blog/tags'
 
 [menus]
   [[menus.main]]
