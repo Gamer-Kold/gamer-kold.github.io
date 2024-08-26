@@ -1,8 +1,18 @@
 baseURL = 'https://kodin.cc'
 languageCode = 'en-us'
 title = "Kodin's Tower"
+
+[outputs]
+  home = ['html']
+  section = ['html']
+  taxonomy = ['html']
+  term = ['html']
+
 [params]
 custom_css = ["css/styles.css"]
+
+[taxonomies]
+  tag = 'blog/tags'
 
 [menus]
   [[menus.main]]
