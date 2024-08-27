@@ -1,0 +1,44 @@
+{{  define "main"  }}
+<pre class="ascii ascii-banner">
+                        /|
+                  /|  _|  \
+                 |  \/    | 
+                  \    o o(
+                  /_       \
+    _______       / |/\____/ _____
+   /       \    .'    /           \
+  /         \  '    .'   /         \
+ /            /__|  |__\/           \
+| /\  /\  /\ |   \  /   | /\  /\  /\ |
+|/  \/  \/  \_VVVV  VVVV /  \/  \/  \|
+               '.    '.
+                 '.    '.
+                  /__|  |__\
+                 |   \  /   |
+                  VVVV  VVVV
+                   |     |
+                  .'    .'
+                .'    .'
+               /    /
+              /    /
+             |    /
+              \   \
+               \   \
+                \  /
+                 \/
+</pre>
+<div style="align-self:flex-start;">
+{{  .Content  }}
+<ul>
+	{{  range .Site.Pages  }}
+	{{  $in_section := .InSection $  }}
+	{{  $not_section_page := ne $ .  }}
+	{{  if and $in_section $not_section_page  }}
+	<li>
+		<a href="{{ .Permalink }}">{{  .Title  }}</a>
+	</li>
+	{{  end  }}
+	{{  end  }}
+</ul>
+</div>
+{{  end  }}
