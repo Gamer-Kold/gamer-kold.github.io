@@ -15,7 +15,7 @@
 			<nav class="header-links">
 				{{ $currentPage := . }}
 				{{ range .Site.Menus.main -}}
-				<a class="header-link {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (eq ($currentPage.Permalink) (.URL | absLangURL)) }} active-header-link {{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+				<a class="header-link {{ if eq ($currentPage.Permalink) (.URL | absLangURL) }} active-header-link {{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
 				{{- end }}
 			</nav>
 			<hr/>
