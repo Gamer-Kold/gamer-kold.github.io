@@ -3,6 +3,15 @@
 		font-family: "Inter", sans-serif;
 }
 
+@font-face {
+	font-family: 'UnifontEx';
+	src: url('../fonts/UnifontExMono.woff2') format('woff2'),
+	url('../fonts/UnifontExMono.woff') format('woff'),
+	url('../fonts/UnifontExMono.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 @media (prefers-color-scheme: dark) {
 	* {
@@ -64,7 +73,7 @@ header {
 
 
 .ascii {
-	font-family: "JetBrains Mono", monospace;
+	font-family: "UnifontEx", "JetBrains Mono", monospace;
 	text-align:left;
 	display:inline-block;
 	font-variant-ligatures: none;
