@@ -6,34 +6,27 @@ draft = false
 {{< div >}}
 ## Welcome to Kodin's Tower
 
-> _"Computer Science is a terrible name for this business.
-> First of all it's not a science; it might be engineering
-> or it might be art.... Computer so-called Science has a 
-> lot in common with magic"_ - Harold Abelson
+A home for my digital life. A shred of magic in a magical world. A snowflake in
+a blizzard. Stay a while and listen, if you so wish.
 
-What can be lost in the neverending march of the software
-disciplines is that it is still quite the unique entry
-in the many endeavours of man.
+For those interested in my exploration into the arcane (computers), look no
+further than my **[Projects](projects)**
 
-Programming was; and still is a lot like sorcery. We 
-write spells in a precise language that we call
-programs. The programs provide instructions for spirits
-we call processes to perform arcane tasks.
+If you want to contact me you can do so through the links I've provided on my
+**[About Me](aboutme)**
 
-We have brought these spirits into every facet of our lives.
-They carry our voices for great distances. They buy and sell
-goods on our behalf. They play games with us.
-They cause great strife and great joy.
+Sometimes, I write. You can find my writings on my **[Blog](blog)**
 
-Through it all, we seem to forget that the monuments we built
-were built with magic. The wisdom of Sorcerors and Sorceresses
-before us; and our own effort on top has brought us here. And
-after us; the young sorcerors will take our wisdom even further.
+If you want to continue further into the independent web, I maintain some
+webpages I like; You can find those on my collection **[Links](links)**.
 
-The purpose of this website is not only to advertise myself 
-and my projects (computer related or otherwise) to the world 
-but to serve as a constant personal reminder that the Arcane
-is forever young; and programming will never lose its magic.
+-------------------------------------------------------------------------------
+
+If you're the sort of fellow (or fellow-ette) that enjoy reading manifestos,
+then the following section is for you!
+
+You can read about why I chose the magic and 
+fantasy theme for this site **[here](whymagic)**.
 {{< end-div >}}
 {{< ascii "ascii-banner" >}}
           ,^,
