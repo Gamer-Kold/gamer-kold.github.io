@@ -22,17 +22,7 @@
 		{{ end }}
 	</head>
 	<body>
-		<header>Kodin<hr/>
-			<nav class="header-links">
-				{{ $currentPage := . }}
-				{{ range .Site.Menus.main -}}
-				<a class="header-link {{ if eq ($currentPage.Permalink) (.URL | absLangURL) }} active-header-link {{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
-				{{- end }}
-			</nav>
-			<hr/>
-			This site is under construction
-			<hr/>
-			<br/>
+		<header><a href="{{.Site.BaseURL}}"><h1 style="text-align:center;">Kodin's Tower</h1></a><hr/>
 			<br/>
 		</header>
 		<main class="main" id="{{if .Param "main_id"}}{{.Param  "main_id"}}{{end}}">
