@@ -3,10 +3,10 @@ languageCode = 'en-us'
 title = "Kodin's Tower"
 
 [outputs]
-  home = ['html']
-  section = ['html']
+  home     = ['html']
+  section  = ['html']
   taxonomy = ['html']
-  term = ['html']
+  term     = ['html']
 
 [params]
 custom_css = ["css/styles.css"]
