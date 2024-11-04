@@ -11,5 +11,8 @@ title = "Kodin's Tower"
 [params]
 custom_css = ["css/styles.css"]
 
+[minify]
+disableXML = true
+
 [taxonomies]
   blog_tags = 'blog/tags'
