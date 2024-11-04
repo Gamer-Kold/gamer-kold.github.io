@@ -1,7 +1,7 @@
 +++
 title = 'Red Sun'
 date = 2024-11-03T18:00:09+05:00
-draft = true
+draft = false
 "blog/tags" = ["fiction", "sci-fi", "terraforming", "space"]
 +++
 {{< div >}}
