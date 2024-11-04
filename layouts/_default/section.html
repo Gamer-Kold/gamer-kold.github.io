@@ -28,14 +28,15 @@
                  \/
 </pre>
 <div style="align-self:flex-start;">
-{{  .Content  }}
+        <h1>{{.Title}}</h1>
+        {{  .Content  }}
 <ul>
 	{{  range .Site.Pages  }}
 	{{  $in_section := .InSection $  }}
 	{{  $not_section_page := ne $ .  }}
 	{{  if and $in_section $not_section_page  }}
 	<li>
-		<a href="{{ .Permalink }}">{{  .Title  }}</a>
+                 {{.Date.Format "2006 Jan 2"}} - <a href="{{ .Permalink }}">{{  .Title  }}</a>
 	</li>
 	{{  end  }}
 	{{  end  }}
