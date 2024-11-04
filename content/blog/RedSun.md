@@ -4,8 +4,19 @@ date = 2024-11-03T18:00:09+05:00
 draft = false
 "blog/tags" = ["fiction", "sci-fi", "terraforming", "space"]
 +++
-{{< div >}}
-## Red Sun
+{{< ascii "ascii-banner" >}}
+              |===|
+         _______|_________
+       .'   /         \   '.
+     .'----/--/        \    '.
+    /        /          \     \------.
+   /=============== __ ========\      \
+  /    /          .'.-'.        \______|
+./____/___________||   |_________\.    |
+|                  |  -|          |    |
+|__________________|---|__________|----|
+{{< /ascii >}}
+
 Ahmed awoke to the sound of a blaring alarm. He hit the snooze button and
 shut his eyelids tightly and tried to will himself back to sleep. It was no
 use, the sound of the wind wouldn't let him.
@@ -146,16 +157,3 @@ And then a thought crept up from the back of his mind. A doubt that once
 raised could not be dismissed.
 
 "Say, you said I'm the _only_ person you've talked to?"
-{{< end-div >}}
-{{< ascii "ascii-banner" >}}
-              |===|
-         _______|_________
-       .'   /         \   '.
-     .'----/--/        \    '.
-    /        /          \     \------.
-   /=============== __ ========\      \
-  /    /          .'.-'.        \______|
-./____/___________||   |_________\.    |
-|                  |  -|          |    |
-|__________________|---|__________|----|
-{{< /ascii >}}
