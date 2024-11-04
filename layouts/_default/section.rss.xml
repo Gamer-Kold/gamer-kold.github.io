@@ -52,7 +52,7 @@
       {{ with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       <!-- This is fucking atrocious but it works -->
-      <description>{{ .Content | transform.HTMLUnescape | safeHTML}}</description>
+      <description>{{ .Content | transform.HTMLUnescape | transform.XMLEscape | safeHTML}}</description>
     </item>
     {{end }}
   </channel>
