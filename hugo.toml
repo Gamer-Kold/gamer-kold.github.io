@@ -4,35 +4,12 @@ title = "Kodin's Tower"
 
 [outputs]
   home     = ['html']
-  section  = ['html']
+  section  = ['html', 'rss']
   taxonomy = ['html']
-  term     = ['html']
+  term     = ['html', 'rss']
 
 [params]
 custom_css = ["css/styles.css"]
 
 [taxonomies]
   blog_tags = 'blog/tags'
-
-[menus]
-  [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-  [[menus.main]]
-    name = 'Links'
-    pageRef = '/links'
-    weight = 20
-  [[menus.main]]
-    name = 'About'
-    pageRef = '/aboutme'
-    weight = 30
-  [[menus.main]]
-    name = 'Projects'
-    pageRef = '/projects'
-    weight = 40
-  [[menus.main]]
-    name = 'Blog'
-    pageRef = '/blog'
-    weight = 50
-
