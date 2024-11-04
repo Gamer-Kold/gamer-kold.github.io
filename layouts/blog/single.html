@@ -1,0 +1,12 @@
+{{define "main"}}
+<div>
+<h2>{{page.Title}}</h2>
+<p>
+	Tags:
+{{range page.GetTerms "blog/tags"}}
+	<a href="{{.Permalink}}"> {{.Title}}</a>
+{{end}}
+</p>
+{{page.Content}}
+</div>
+{{end}}
