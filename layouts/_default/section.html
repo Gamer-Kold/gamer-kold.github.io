@@ -30,6 +30,10 @@
 <div style="align-self:flex-start;">
         <h1>{{.Title}}</h1>
         {{  .Content  }}
+        {{ with .OutputFormats.Get "rss" -}}
+        <a href="{{ .RelPermalink }}">RSS Feed</a>
+        {{ end }}
+
 <ul>
 	{{  range .Site.Pages  }}
 	{{  $in_section := .InSection $  }}
