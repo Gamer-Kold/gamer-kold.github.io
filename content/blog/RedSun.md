@@ -2,9 +2,10 @@
 title = 'Red Sun'
 date = 2024-11-03T18:00:09+05:00
 draft = true
-blog_tags = ["fiction", "sci-fi", "terraforming", "space"]
+"blog/tags" = ["fiction", "sci-fi", "terraforming", "space"]
 +++
 {{< div >}}
+## Red Sun
 Ahmed awoke to the sound of a blaring alarm. He hit the snooze button and
 shut his eyelids tightly and tried to will himself back to sleep. It was no
 use, the sound of the wind wouldn't let him.
