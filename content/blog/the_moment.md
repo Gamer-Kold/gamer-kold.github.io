@@ -2,14 +2,14 @@
 title = 'The Moment Of Clarity'
 date = 2024-11-21T13:03:58+05:00
 draft = false
-blog_tags = ["programming", "flow", "focus"]
+"blog/tags" = ["programming", "flow", "focus"]
 +++
 
 I remember someone saying something along the lines of this to me a couple
 months ago:
 
-> If you want to be the best programmer in your field, that is driven > by
-a desire for respect at it's core. You want to be respected so you drive >
+> If you want to be the best programmer in your field, that is driven by
+a desire for respect at it's core. You want to be respected so you drive 
 to improve yourself.
 
 This never sat right with me but at the time. And now I remember why. All
