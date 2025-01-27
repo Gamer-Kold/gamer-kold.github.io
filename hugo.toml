@@ -1,6 +1,6 @@
 baseURL = 'https://koldinium.com'
 languageCode = 'en-us'
-title = "Kold's Tower"
+title = "Koldinium's Tower"
 
 [outputs]
   home     = ['html']

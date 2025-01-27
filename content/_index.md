@@ -4,7 +4,7 @@ date = 2024-08-24T21:17:18+05:00
 draft = false
 +++
 {{< div >}}
-## Welcome to Kodin's Tower
+## Welcome to Koldinium's Tower
 
 A home for my digital life. A shred of magic in a magical world. A snowflake in
 a blizzard. Stay a while and listen, if you so wish.
