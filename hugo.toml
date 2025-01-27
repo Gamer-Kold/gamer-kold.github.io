@@ -1,6 +1,6 @@
-baseURL = 'https://kodin.cc'
+baseURL = 'https://koldinium.com'
 languageCode = 'en-us'
-title = "Kodin's Tower"
+title = "Kold's Tower"
 
 [outputs]
   home     = ['html']
