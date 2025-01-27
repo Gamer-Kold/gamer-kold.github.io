@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="author" content="Talha Qamar">
-		<title>{{block "title" .}}{{.Title}} - Kodin{{end}}</title>
+		<title>{{block "title" .}}{{.Title}} - {{.Site.Title}}{{end}}</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
 		{{ end }}
 	</head>
 	<body>
-		<header><a href="{{.Site.BaseURL}}"><h1 style="text-align:center;">Kodin's Tower</h1></a><hr/>
+		<header><a href="{{.Site.BaseURL}}"><h1 style="text-align:center;">{{.Site.Title}}</h1></a><hr/>
 			<br/>
 		</header>
 		<main class="main" id="{{if .Param "main_id"}}{{.Param  "main_id"}}{{end}}">
