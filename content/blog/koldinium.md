@@ -38,4 +38,12 @@ Though I don't think the fact that Kold had meaning was the reason it stuck. It
 was probably because Kold was infectious. Kold became my email, my gamer tag, 
 and most importantly for this story: my discord.
 
+Discord was the first time _other_ people called me Kold, instead of just me
+calling myself that. Discord has had a huge effect on me growing up, both
+positive and negative (but that's a story for another time). So suffice to 
+say, it very quickly solidified into an _actual_ name. Fallbill lasted a year
+at best, Tenderdragon maybe a couple months, Kold has lasted as a consistent
+identity for me for the last _8 years_. If you called me on the street
+by the name "Kold", I'd probably turn around to look at you.
+
 
