@@ -5,7 +5,8 @@
 
 @font-face {
 	font-family: 'UnifontEx';
-	src: url('../fonts/UnifontExMono.woff') format('woff'),
+	src: url('../fonts/UnifontExMono.woff2') format('woff2'),
+	url('../fonts/UnifontExMono.woff') format('woff'),
 	url('../fonts/UnifontExMono.ttf') format('ttf');
 	font-weight: normal;
 	font-style: normal;
