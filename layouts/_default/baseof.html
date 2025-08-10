@@ -16,6 +16,10 @@
 		{{ else }}
 		<meta property="og:description" content="{{ $content | htmlEscape }}">
 		{{ end }}
+
+		<link rel="prefetch" href="{{.Site.BaseURL}}js/jxl_dec.js" fetchpriority="high">
+		<link rel="prefetch" href="{{.Site.BaseURL}}js/jxl_dec.wasm" fetchpriority="high">
+		<script src="{{.Site.BaseURL}}js/jxl.min.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<header><a href="{{.Site.BaseURL}}"><h1 style="text-align:center;">{{.Site.Title}}</h1></a><hr/>
