@@ -2,7 +2,7 @@
 title = 'Once Upon a Time'
 date = 2025-08-13T04:49:26+05:00
 draft = true
-blog_tags = []
+"blog/tags" = ["fiction"]
 +++
 
 Once upon a time, there was a boy, and a girl who hated the boy.
@@ -73,7 +73,7 @@ The boy handed the girl his umbrella. The girl hesitated, but took it.
 
 "Oh, it's no problem."
 
-The girl does not reply.
+The girl did not reply.
 
 The boy paused for a moment. There is only the sound of breathing, and rain, and gunshots far off in the distance.
 
@@ -105,13 +105,15 @@ The boy then inhaled sharply.
 
 "Maybe you're right."
 
-The girl does not reply. The boy closed his eyes.
+The girl did not reply. 
+
+The boy closed his eyes.
 
 "I love the feeling of the rain on my skin." He decided.
 
 "I love living, because it lets me feel my favorite feeling." He continued.
 
-The girl does not reply.
+The girl did not reply.
 
 "Goodbye", said the boy.
 
